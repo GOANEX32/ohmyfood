@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,4EAAI",
+    "sources": [
+        "policeColor.scss"
+    ],
+    "names": [],
+    "file": "policeColor.css"
+}

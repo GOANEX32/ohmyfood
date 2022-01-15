@@ -1,0 +1,57 @@
+.footer
+{
+	background-color: rgb(78, 77, 77);
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+
+
+
+.titreFoot
+{
+	font-family: 'Shrikhand', cursive;
+	height: 50px;
+	width: 100px;
+	
+	color: white;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+p
+{
+	margin-bottom: 0%;
+	margin-top: 0%;
+	
+}
+.elementFoot1
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	display: flex;
+	margin-left: 10PX;
+	align-items: center;
+	height: 50px;
+	width: 200px;
+}
+.elementFoot2
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 3%;
+	width: 200PX;
+	
+	
+}
+h4
+{
+	color: white;
+	font-size: 15px;
+	margin-left: 2%;
+
+}
