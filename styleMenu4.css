@@ -252,6 +252,8 @@ h4 {
   margin-left: 2%;
 }
 
-/*/section/*/
-/*/footer*/
-/*# sourceMappingURL=styleMenu1.css.map */
+.imageTete {
+  background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-position: bottom;
+}
+/*# sourceMappingURL=styleMenu4.css.map */

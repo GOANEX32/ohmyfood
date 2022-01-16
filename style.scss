@@ -1,4 +1,6 @@
 @import"./sass/footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /*/head*/
 
@@ -124,7 +126,7 @@ button[type="submit"]
     background-color: #9356DC;
     margin-left: -19%;
 }
-#fonction
+.largeur
 {
     width: 100%;
     
@@ -151,7 +153,47 @@ button[type="submit"]
     flex-direction: column-reverse;
 
     border-radius: 15px 15px 15px 15px;
-} 
+}
+.new
+{
+    
+    position: absolute;
+    
+    bottom: -70px;
+    right: 0px;
+    left: 260px;
+    background-color: #99E2D0;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #008080;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+.new2
+{
+    
+    position: absolute;
+    
+    bottom: -350px;
+    right: 0px;
+    left: 260px;
+    background-color: #99E2D0;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #008080;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px grey;
+
+}  
 .boxText
 {
     width: 100%;
@@ -161,6 +203,7 @@ button[type="submit"]
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
 }
 .far:hover
