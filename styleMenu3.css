@@ -37,15 +37,12 @@ h3 {
 }
 
 .titre {
-  display: -webkit-box;
-  display: -ms-flexbox;
+ 
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
+  justify-content: space-evenly;
+  
+  align-items: center;
   margin-left: 0%;
   width: 92%;
   height: 15px;
@@ -61,19 +58,14 @@ h3 {
 }
 
 .titreMenu1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  
+  flex-direction: row;
+  
+  align-items: center;
+  
+  justify-content: space-evenly;
   text-align: left;
   width: 90%;
 }
@@ -82,19 +74,14 @@ h3 {
   background-color: gainsboro;
   margin-top: -100px;
   border-radius: 30px 30px 0px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  
+  align-items: center;
+  
+  flex-direction: column;
+  
+  justify-content: space-evenly;
   width: 100%;
   height: 1300px;
 }
@@ -103,21 +90,17 @@ h3 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   width: 95%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
   margin-bottom: 5%;
   height: 80px;
   text-align: left;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  
+  flex-direction: column;
+  
+  justify-content: center;
+  
+  transform: scale(1);
 }
 
 .prix {
@@ -137,29 +120,24 @@ h3 {
   position: absolute;
   right: 0%;
   display: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  
+  align-items: center;
+  
+  justify-content: center;
 }
 
 .element1:hover {
   cursor: pointer;
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
+  transform: scale(1.01);
+  
   display: flex;
 }
 
 .element1:hover > .valider {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
 }
 
@@ -177,7 +155,7 @@ h3 {
   height: 50px;
   width: 150px;
   color: white;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  
   background-image: linear-gradient(#FF79DA, #9356DC);
   border-radius: 15px 15px 15px 15px;
   margin-bottom: 50px;
@@ -187,16 +165,12 @@ h3 {
 .footer {
   background-color: #4e4d4d;
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  
+  flex-direction: column;
+  
+  align-items: flex-start;
 }
 
 .titreFoot {
@@ -214,16 +188,12 @@ p {
 }
 
 .elementFoot1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
+  flex-direction: row;
+  
+  align-items: center;
   display: flex;
   margin-left: 10PX;
   align-items: center;
@@ -232,16 +202,12 @@ p {
 }
 
 .elementFoot2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
+  flex-direction: row;
+  
+  align-items: center;
   margin-left: 3%;
   width: 200PX;
 }
@@ -252,8 +218,5 @@ h4 {
   margin-left: 2%;
 }
 
-.imageTete {
-  background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-  background-position: bottom;
-}
-/*# sourceMappingURL=styleMenu3.css.map */
+/*/section/*/
+/*/footer*/

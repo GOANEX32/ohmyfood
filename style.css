@@ -1,116 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-.footer {
-  background-color: #4e4d4d;
-  height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
 
-.titreFoot {
-  font-family: 'Shrikhand', cursive;
-  height: 50px;
-  width: 100px;
-  color: white;
-  margin-left: 3%;
-  margin-top: 3%;
-}
-
-p {
-  margin-bottom: 0%;
-  margin-top: 0%;
-}
-
-.elementFoot1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+/*/loader*/
+.pageloader
+{
+  position: fixed;
+  background-color: #F5F5F5;
+  height: 100vh;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disappear 200ms;
+  animation-fill-mode: forwards;
+  
+  animation-delay: 2s;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: flex;
-  margin-left: 10PX;
   align-items: center;
-  height: 50px;
-  width: 200px;
+  justify-content: center;
+  
 }
-
-.elementFoot2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+@keyframes disappear {
+  0%{
+    transform:scale(1);
+  }
+  100%{
+    transform: scale(0);
+  }
+  
+}
+.fa
+{
+  inset: 100px;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 3%;
-  width: 200PX;
+  opacity: 1;
 }
-
-h4 {
-  color: white;
-  font-size: 15px;
-  margin-left: 2%;
-}
-
 /*/head*/
 .head {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+  
+      
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
+  
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+  
           justify-content: center;
 }
 
 .endroit {
   background-color: #dcdcdc;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  
+  align-items: center;
+  
+  justify-content: center;
+  
+  flex-direction: row;
   width: 100%;
   height: 60px;
 }
 
 .fas {
-  display: -webkit-box;
-  display: -ms-flexbox;
+ 
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
+  align-items: center;
   width: 20px;
   margin-right: 0%;
 }
@@ -127,19 +82,14 @@ h1 {
   background-color: #F5F5F5;
   width: 100%;
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+ 
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  
+  align-items: center;
+ 
+  flex-direction: column;
+  
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -158,54 +108,44 @@ button[type="submit"] {
   height: 50px;
   width: 250px;
   color: white;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  
   background-image: linear-gradient(#FF79DA, #9356DC);
   border-radius: 15px 15px 15px 15px;
   margin-bottom: 50px;
   margin-top: 50px;
-  -webkit-box-shadow: 5px 5px 5px grey;
-          box-shadow: 5px 5px 5px grey;
+ 
+  box-shadow: 5px 5px 5px grey;
 }
 
 /*/NAV*/
 .navi {
   width: 100%;
   height: 360px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
+  flex-direction: column;
+  
+  justify-content: space-evenly;
+  
+  align-items: center;
 }
 
 .elementNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
+ 
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  
+  justify-content: space-evenly;
+ 
+  align-items: center;
+ 
+  flex-direction: row;
   background-color: #F5F5F5;
   border-radius: 15px 15px 15px 15px;
   height: 60px;
   width: 90%;
-  -webkit-box-shadow: 5px 5px 5px grey;
-          box-shadow: 5px 5px 5px grey;
+  
+  box-shadow: 5px 5px 5px grey;
 }
 
 .elementNav :hover {
@@ -232,18 +172,14 @@ button[type="submit"] {
   height: 1200px;
   width: 100%;
   background-color: #F5F5F5;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  
+  flex-direction: column;
+ 
+  align-items: center;
+  
+  justify-content: space-around;
 }
 
 .elementRestau1 {
@@ -252,21 +188,19 @@ button[type="submit"] {
   background-size: cover;
   width: 90%;
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  position: relative;
+ 
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  
+  flex-direction: column-reverse;
   border-radius: 15px 15px 15px 15px;
 }
 
 .new {
   position: absolute;
-  bottom: -70px;
-  right: 0px;
-  left: 260px;
+  right: 5%;
+  top: 10%;
+  
   background-color: #99E2D0;
   height: 20px;
   width: 70px;
@@ -276,46 +210,59 @@ button[type="submit"] {
   font-size: 15px;
   color: #008080;
   border-radius: 5px 5px 5px 5px;
-  -webkit-box-shadow: 5px 5px 5px grey;
-          box-shadow: 5px 5px 5px grey;
+  
+  box-shadow: 5px 5px 5px grey;
 }
 
-.new2 {
-  position: absolute;
-  bottom: -350px;
-  right: 0px;
-  left: 260px;
-  background-color: #99E2D0;
-  height: 20px;
-  width: 70px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: #008080;
-  border-radius: 5px 5px 5px 5px;
-  -webkit-box-shadow: 5px 5px 5px grey;
-          box-shadow: 5px 5px 5px grey;
+.margin{
+  margin-left: 20%;
 }
+
+
 
 .boxText {
   width: 100%;
   background-color: white;
   height: 70px;
   border-radius: 0px 0px 15px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+ 
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
+  
+  
+  align-items: center;
+}
+.heart1{
+  position: absolute;
+  right: 20%;
+  color: #9356DC;
+  
+  height: 20px;
+  width: 20px;
+  opacity: 0;
+
+  
+
+}
+.heart2{
+  position: absolute;
+  right: 20%;
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  
+
 }
 
-.far:hover {
-  background-color: #9356DC;
+
+.heart1:hover {
+  
+  opacity: 1;
+  cursor: pointer;
+  
+  
 }
+
 
 p {
   font-size: 15px;
@@ -329,13 +276,11 @@ p {
   background-size: cover;
   width: 90%;
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  position: relative;
+ 
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+ 
+  flex-direction: column-reverse;
   border-radius: 15px 15px 15px 15px;
 }
 
@@ -345,13 +290,11 @@ p {
   background-size: cover;
   width: 90%;
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  
+  
+  flex-direction: column-reverse;
   border-radius: 15px 15px 15px 15px;
 }
 
@@ -361,13 +304,77 @@ p {
   background-size: cover;
   width: 90%;
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  
+  flex-direction: column-reverse;
   border-radius: 15px 15px 15px 15px;
 }
-/*# sourceMappingURL=style.css.map */
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+/*/footer*/
+
+
+
+.footer {
+  background-color: #4e4d4d;
+  height: 250px;
+  
+  display: flex;
+ 
+  flex-direction: column;
+ 
+  align-items: flex-start;
+}
+
+.titreFoot {
+  font-family: 'Shrikhand', cursive;
+  height: 50px;
+  width: 100px;
+  color: white;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+p {
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.elementFoot1 {
+  
+  display: flex;
+  
+  flex-direction: row;
+  
+  align-items: center;
+  display: flex;
+  margin-left: 10PX;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+}
+
+.elementFoot2 {
+  
+  display: flex;
+  
+  flex-direction: row;
+  
+  align-items: center;
+  margin-left: 3%;
+  width: 200PX;
+}
+
+h4 {
+  color: white;
+  font-size: 15px;
+  margin-left: 2%;
+}
