@@ -9,11 +9,11 @@
   height: 100vh;
   inset: 0;
   z-index: 1;
-  opacity: 0.9;
+  opacity: 0.8;
   animation: disappear 200ms;
   animation-fill-mode: forwards;
   
-  animation-delay: 2s;
+  animation-delay: 1s;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,6 +238,9 @@ button[type="submit"] {
 .margin{
   margin-left: 20%;
 }
+small{
+  text-align: left;
+}
 
 
 
@@ -256,10 +259,17 @@ button[type="submit"] {
 .heart1{
   position: absolute;
   right: 20%;
-  color: #9356DC;
   
-  height: 20px;
-  width: 20px;
+  display: block;
+  background-image: -webkit-linear-gradient(#9356DC, #FF79DA) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+  
+  color:transparent ;
+  
+  
   opacity: 0;
 
   
@@ -269,8 +279,8 @@ button[type="submit"] {
   position: absolute;
   right: 20%;
   background-color: transparent;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 20.5px;
   
 
 }
@@ -280,6 +290,9 @@ button[type="submit"] {
   
   opacity: 1;
   cursor: pointer;
+  z-index: 1;
+  
+  
   
   
 }
