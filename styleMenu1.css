@@ -263,6 +263,24 @@ h3 {
 
   
 }
+.animation1{
+  animation-delay: 1s;
+  animation: appear 2s;
+  transition-duration: 1s;
+
+}
+.animation2{
+  animation-delay: 2s;
+  animation: appear 4s;
+  transition-duration: 1s;
+
+}
+.animation3{
+  animation-delay: 3s;
+  animation: appear 6s;
+  transition-duration: 1s;
+
+}
 
 
 .prix {

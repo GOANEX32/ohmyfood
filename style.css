@@ -160,7 +160,7 @@ button[type="submit"] {
  
   align-items: center;
  
-  flex-direction: row;
+  flex-direction: row-reverse;
   background-color: #F5F5F5;
   border-radius: 15px 15px 15px 15px;
   height: 60px;
