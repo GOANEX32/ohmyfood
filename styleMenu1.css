@@ -2,58 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 
-/*/loader*/
-.pageloader
-{
-  position: fixed;
-  background-color: #F5F5F5;
-  height: 100vh;
-  inset: 0;
-  z-index: 1;
-  opacity: 0.9;
-  animation: disappear 200ms;
-  animation-fill-mode: forwards;
-  
-  animation-delay: 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-@keyframes disappear {
-  0%{
-    transform:scale(1);
-  }
-  100%{
-    transform: scale(0);
-  }
-  
-}
-.lettre
-{
-  color: #484848;
-  font-size: 40PX;
-  letter-spacing: 10px;
-  animation: flash 2.2s ;
-}
-@keyframes flash {
-  0%{
-    color: #9356DC;
-    text-shadow: 0 0 7px #9356DC ;
 
-  }
-  90%{
-    color: #99E2D0;
-    text-shadow: none;
-
-  }
-  100%{
-    color: #9356DC;
-
-  }
-
-  
-}
 
 
 
@@ -190,7 +139,7 @@ h5 {
 }
 .heart1{
   position: absolute;
-  right: 20%;
+  right: 10%;
   
   display: block;
   color: #9356DC ;
@@ -209,7 +158,7 @@ h5 {
 }
 .heart2{
   position: absolute;
-  right: 20%;
+  right: 10%;
   background-color: transparent;
   height: 20px;
   width: 20px;
@@ -411,11 +360,17 @@ h5 {
   width: 180px;
   line-height: 40px;
   color: white;
+  border: 0cm;
   
   background-image: linear-gradient(#FF79DA, #9356DC);
   border-radius: 15px 15px 15px 15px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+#bouton:hover{
+  background-image: linear-gradient(#9356DC, #FF79DA);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 
@@ -485,7 +440,7 @@ p {
 @media screen and (min-width: 980px)
 {
   .head__titre {
-    margin-left: 15%;
+    margin-left: 35%;
     width: 250px;
     display: flex;
     flex-direction: row;
@@ -514,7 +469,7 @@ p {
   }
   .heart1{
     position: absolute;
-    right: 40%;
+    right: 30%;
     
     display: block;
     color: #9356DC ;
@@ -533,7 +488,7 @@ p {
   }
   .heart2{
     position: absolute;
-    right: 40%;
+    right: 30%;
     background-color: transparent;
     height: 20px;
     width: 20px;
@@ -608,7 +563,7 @@ p {
     align-items: center;
     margin-left: 1%;
     width: 100PX;
-    height: 100px;
+    height: 50px;
   }
   .footer__titre {
     font-family: 'Shrikhand', cursive;
@@ -687,7 +642,7 @@ p {
 }
 .menu {
   background-color: gainsboro;
-  margin-top: -9px;
+  margin-top: -50px;
   border-radius: 30px 30px 0px 0px;
   
   display: flex;
@@ -731,37 +686,44 @@ p {
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 60%;
-  height: 300px;
+  background-position: center;
+  width: 100%;
+  height: 600px;
   margin-top: 1%;
-  margin-left: 19%;
+  margin-left: 0%;
 }
 .head__imageTete2 {
   background-image: url(./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 60%;
-  height: 300px;
+  width: 100%;
+  height: 600px;
   margin-top: 1%;
-  margin-left: 19%;
+  margin-left: 0%;
 }
 .head__imageTete3 {
   background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 60%;
-  height: 300px;
+  width: 100%;
+  height: 600px;
   margin-top: 1%;
-  margin-left: 19%;
+  margin-left: 0%;
 }
 .head__imageTete4 {
   background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 60%;
-  height: 300px;
+  width: 100%;
+  height: 600px;
   margin-top: 1%;
-  margin-left: 19%;
+  margin-left: 0%;
+}
+.menu__element:hover > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 60%;
 }
 }
 
