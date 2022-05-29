@@ -91,7 +91,7 @@
   margin-right: 0%;
 }
 
-h1 {
+h2 {
   font-size: 16px;
   margin-top: 0%;
   width: 180px;
@@ -114,7 +114,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h1 {
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
@@ -134,8 +134,14 @@ button[type="submit"] {
   border-radius: 15px 15px 15px 15px;
   margin-bottom: 50px;
   margin-top: 50px;
+  border: 0rem;
  
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 1px 1px 1px grey;
+  transition-duration: 0.3s;
+}
+button[type="submit"]:hover {
+  background-image: linear-gradient(#9356DC, #FF79DA);
+  transform: scale(1.1);
 }
 
 /*/NAV*/
@@ -178,10 +184,10 @@ button[type="submit"] {
   width: 20px;
   text-align: center;
   border-radius: 15px 15px 15px 15px;
-  border: solid black 2px;
+  
   color: white;
   background-color: #9356DC;
-  margin-left: -19%;
+  margin-left: -17%;
 }
 
 .width--90 {
@@ -221,6 +227,7 @@ button[type="submit"] {
   position: absolute;
   right: 5%;
   top: 10%;
+  padding: 5px;
   
   background-color: #99E2D0;
   height: 20px;
@@ -236,7 +243,7 @@ button[type="submit"] {
 }
 
 .margin{
-  margin-left: 20%;
+  margin-left: 1%;
 }
 small{
   text-align: left;
@@ -258,7 +265,7 @@ small{
 }
 .heart1{
   position: absolute;
-  right: 20%;
+  right: 10%;
   
   display: block;
   color: #9356DC;
@@ -276,7 +283,7 @@ small{
 }
 .heart2{
   position: absolute;
-  right: 20%;
+  right: 10%;
   background-color: transparent;
   height: 15px;
   width: 20.5px;
@@ -418,6 +425,13 @@ h4 {
 /*responsiv/*/
 @media screen and (min-width: 980px)
 {
+  h2 {
+    font-size: 20px;
+    margin-top: 0%;
+    width: 180px;
+    margin-bottom: 0%;
+    font-family: 'Roboto', sans-serif;
+  }
   .head{
     width: 60%;
     margin-left: 19%;
@@ -456,6 +470,33 @@ h4 {
     margin-left: 10%;
     
     box-shadow: 5px 5px 5px grey;
+  }
+  .heart1{
+    position: absolute;
+    right: 20%;
+    
+    display: block;
+    color: #9356DC;
+    
+    
+    
+    
+    
+    
+    
+    opacity: 0;
+  
+    
+  
+  }
+  .heart2{
+    position: absolute;
+    right: 20%;
+    background-color: transparent;
+    height: 15px;
+    width: 20.5px;
+    
+  
   }
   
   .restau {
@@ -533,11 +574,11 @@ h4 {
   .footer{
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 700px;
     margin-left: 19%;
   }
   .footer__titre{
-    margin-left: -5%;
+    margin-left: -0%;
     margin-bottom: 5px;
     font-size: 25px;
     height: 40px;
@@ -567,15 +608,15 @@ h4 {
     
     align-items: center;
     margin-left: 1%;
-    width: 100PX;
-    height: 100px;
+    width: 150PX;
+    height: 50px;
   }
   .footer__titre {
     font-family: 'Shrikhand', cursive;
     height: 50px;
-    width: 100px;
+    width: 150px;
     color: white;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 1%;
   }
   
