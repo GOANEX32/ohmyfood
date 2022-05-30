@@ -141,7 +141,7 @@ button[type="submit"] {
   color: white;
   
   background-image: linear-gradient(#FF79DA, #9356DC);
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 40px 40px 40px 40px;
   margin-bottom: 50px;
   margin-top: 50px;
   border: 0rem;
@@ -414,7 +414,7 @@ p {
   flex-direction: row;
   
   align-items: center;
-  display: flex;
+  
   margin-left: 10PX;
   align-items: center;
   height: 50px;
@@ -430,6 +430,7 @@ p {
   align-items: center;
   margin-left: 3%;
   width: 200PX;
+  height: auto;
 }
 
 h4 {
@@ -592,8 +593,8 @@ h4 {
   .footer{
     display: flex;
     align-items: center;
-    width: 700px;
-    margin-left: 19%;
+    width: 800px;
+    margin-left: 22%;
   }
   .footer__titre{
     margin-left: -0%;
